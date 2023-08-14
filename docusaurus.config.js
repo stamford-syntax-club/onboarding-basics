@@ -73,6 +73,9 @@ const config = {
 				darkTheme: darkCodeTheme,
 			},
 		}),
+
+	// This has a TON of vulnerabilities, so make sure this is containerized and tucked away XD
+	themes: ["@docusaurus/theme-live-codeblock"],
 };
 
 module.exports = config;
