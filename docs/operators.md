@@ -5,8 +5,7 @@ sidebar_position: 3
 # Operators
 *Written By: Tawan Tocharoentanaphol*
 
-Operators are the symbols that are used to perform operations on variables and values.
-In JavaScript, operators are used to assign values, compare values, perform arithmetic operations, and more. 
+Operators are the symbols that are used to perform operations on variables and values. In JavaScript, operators are used to assign values, compare values, perform arithmetic operations, and more.
 
 There are some nuances and caveats to operators particularly in JavaScript which will not be covered extensively, but it's worth keeping in mind that an operator that functions one way in JavaScript may not translate to other languages.
 
@@ -65,6 +64,31 @@ These are used to perform arithmetic calculations.
   render(d);
   ```
 
+#### **Task 1: Arithmetic Operators**
+Try performing the following operations:
+- Multiply 4 by 5.
+- Divide 20 by 4.
+- Increment the value 7.
+- Decrement the value 9.
+
+<details>
+<summary>Answer for Task 1</summary>
+<p>
+
+```javascript live noInline
+let multiplication = 4 * 5; // multiplication will be 20
+let division = 20 / 4; // division will be 5
+let increment = 7;
+increment++; // increment will be 8
+let decrement = 9;
+decrement--; // decrement will be 8
+
+// This is called string interpolation. It's a way to combine strings and variables without having to use the '+' operator to concatenate them.
+render(`Multiplication: ${multiplication}, Division: ${division}, Increment: ${increment}, Decrement: ${decrement}`);
+```
+</p>
+</details>
+
 ### 2. Assignment Operators
 
 These are used to assign values to variables.
@@ -89,12 +113,25 @@ These are used to assign values to variables.
   render(g);
   ```
 
+#### **Task 2: Assignment Operators**
+Create a variable named 'total' and assign a value of 20 to it. Then, using the `+=` operator, add 15 to it.
+
+<details>
+<summary>Answer for Task 2</summary>
+<p>
+
+```javascript live noInline
+let total = 20;
+total += 15; // total will be 35
+
+render(total);
+```
+</p>
+</details>
+
 ### 3. Comparison Operators
 
 These are used to compare values. Do note that JavaScript operates on "truthy" and "falsey" values.
-> NOTE: The call to the `render()` function in these cases will display `true` or `false` in the browser depending on the value of the variable.
-> For example, if the variable is `true`, the browser will display `true`. This is called a ternary operator, which is a shorthand for an `if` statement.
-> You don't need to worry about this for now, but it's good to know.
 
 - **Equal to (`==`):** Checks if two values are equal.
   ```javascript live noInline
@@ -120,6 +157,25 @@ These are used to compare values. Do note that JavaScript operates on "truthy" a
   render(isStrictlyNotEqual ? "true" : "false");
   ```
 
+#### **Task 3: Comparison Operators**
+Use comparison operators to:
+- Compare 5 and '5' using both `==` and `===`.
+- Check if 10 is not equal to 15.
+
+<details>
+<summary>Answer for Task 3</summary>
+<p>
+
+```javascript live noInline
+let isEqual = (5 == "5"); // isEqual will be true
+let isStrictlyEqual = (5 === "5"); // isStrictlyEqual will be false
+let isNotEqual = (10 != 15); // isNotEqual will be true
+
+render(`isEqual: ${isEqual}, isStrictlyEqual: ${isStrictlyEqual}, isNotEqual: ${isNotEqual}`);
+```
+</p>
+</details>
+
 ### 4. Logical Operators
 
 These are used to determine the logic between variables or values.
@@ -144,5 +200,25 @@ These are used to determine the logic between variables or values.
   let isTrue = !false; // isTrue will be true
   render(isTrue ? "true" : "false");
   ```
+
+#### **Task 4: Logical Operators**
+Create a logical expression using `&&` that checks if a variable 'temperature' is greater than 30 and a variable 'sunny' is true. Then, use the `!` operator to return the opposite of that value.
+
+<details>
+<summary>Answer for Task 4</summary>
+<p>
+
+```javascript live noInline
+let temperature = 35;
+let sunny = true;
+let logicalExpression = (temperature > 30 && sunny); // logicalExpression will be true
+let oppositeValue = !logicalExpression; // oppositeValue will be false
+
+render(`logicalExpression: ${logicalExpression}, oppositeValue: ${oppositeValue}`);
+```
+</p>
+</details>
+
+---
 
 These are the basic operators you'll encounter in JavaScript. You will use nearly all of them extensively while you code in the language, and understanding them is paramount.
