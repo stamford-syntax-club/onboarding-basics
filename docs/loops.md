@@ -325,6 +325,7 @@ console.log("First negative number:", firstNegative);
 First negative number: -3
 ```
 <br/>
+
 # Time to Challenge Yourself!
 
 <aside>
