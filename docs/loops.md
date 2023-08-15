@@ -1,7 +1,7 @@
 # Loops In JavaScript
 
 Created by: Nay Htet Kyaw
-Tags: Guides, Loops, Tutorial
+<!-- Tags: Guides, Loops, Tutorial -->
 
 # Loops In JavaScript
 
@@ -233,6 +233,7 @@ name: Tawan
 age: 20
 occupation: GOD
 ```
+<br/>
 
 # Now Let’s Learn How to Control loop flows
 
@@ -323,7 +324,7 @@ console.log("First negative number:", firstNegative);
 ```jsx
 First negative number: -3
 ```
-
+<br/>
 # Time to Challenge Yourself!
 
 <aside>
@@ -352,11 +353,12 @@ The Number is: 5
 💡 Hint: You can combine String and numbers by using “ **+** “ operators in javascript.
 
 </aside>
+<br/>
 
 > **Challenge 2: Counting Even Numbers**
 > 
 
-> Write a program that counts and prints the number of even numbers between 1 and 15.
+ Write a program that counts and prints the number of even numbers between 1 and 15.
 > 
 
 **Expected Output:** 
