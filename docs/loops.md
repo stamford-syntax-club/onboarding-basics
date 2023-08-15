@@ -15,7 +15,7 @@ Written By: Nay Htet Kyaw
 - while loop
 - do-while loop
 - for …of loop
-- for …in the loop
+- for …in loop
 
 💡 You can **TEST** and **RUN** the following examples by yourself [here](https://runjs.co/)
 
@@ -38,6 +38,12 @@ for (initialization; condition; iteration) {
 for (let i = 0; i < 5; i++) {
     console.log("Hello World"); //display the value in console.
 }
+```
+
+```
+In this example, the variable “i” is initialized as “0”. The condition is set to perform 5 loops until 
+the value in variable “i” is greater than 5. After each loop, the value inside the variable “i” increase 
+by 1 value. 
 ```
 
 ### **Output:**
@@ -77,8 +83,14 @@ while (i < 5) {
 }
 ```
 
+
 💡 `i` is a variable that assumes or points to the values of the elements inside the loop.  
 💡 In JavaScript, you can combine **"String"** and **Numbers** by using the **" + "** sign.
+
+```
+While the condition is true inside the parentheses (), the ‘while loop’ execute the block of code inside. 
+The loop stops when the condition becomes false. 
+```
 
 ### **Output:**
 
@@ -115,6 +127,14 @@ do {
 } while (i < 5);
 ```
 
+```
+In this do-while loop, your block of code is run at least 1 time before checking the condition. 
+After the first loop, the loop checks if the condition inside the parentheses () is true or false. 
+If the condition is true, your block of code runs again until the condition is set to false, and 
+the loop stop.
+```
+
+
 ### **Output:**
 
 ```jsx
@@ -150,10 +170,16 @@ for (const item of iterable) {
 const fruits = ["apple", "banana", "mango"];
 
 //using for..of
-for (const fruit of fruits) {
+for (const fruit of fruits) { 
     console.log(fruit); //display the value in the console.
 }
 ```
+
+```
+This example of "for…of" loop through an array and give direct access to the value of each item
+inside the array with each loop. 
+```
+
 
 ### Output:
 
@@ -175,6 +201,10 @@ const string = 'hello';
 	for (let i of string) {
 	console.log(i);
 }
+```
+
+```
+This for…of loop with String loop through a string getting each letter of the string with each loop.
 ```
 
 ### **Output:**
@@ -218,6 +248,15 @@ for (const key in person) {
 }
 ```
 
+```
+In this for…in loop, an object named person is defined, containing properties such as name,
+age, and occupation. The for…in loop is used to iterate through each property of the person object.
+During each iteration, the loop prints out the property's name (key) and its corresponding value 
+using the console.log function. This allows you to inspect and display the various attributes of the 
+person object in a structured manner.
+```
+
+
 ### Output:
 
 ```jsx
@@ -225,6 +264,7 @@ name: Tawan
 age: 20
 occupation: GOD
 ```
+<br/>
 
 # Now Let's Learn How to Control loop flows
 
@@ -249,6 +289,13 @@ for (let i = 0; i < 10; i++) {
 	console.log(i);
 }
 ```
+
+```
+In this, for-loop is used to loop from 0 to 9. During each loop, the code checks if the value of i is 
+equal to 5. If the condition is met, the break statement is used to immediately exit the loop. 
+As a result, the loop will only run until “ i “ reach 5, printing the numbers 0 to 4 along the way.
+```
+
 
 **Output:** 
 
@@ -280,6 +327,13 @@ while (i < 10) {
 }
 ```
 
+```
+This example uses ‘While loop’ and inside the loop,” i “ is incremented. If “ i “is an odd number 
+(not divisible by 2), the continue statement is used to skip that iteration. The loop prints even 
+numbers between 2 and 10
+```
+
+
 **Output:**
 
 ```jsx
@@ -310,17 +364,26 @@ const firstNegative = findFirstNegative(numbersArray);
 console.log("First negative number:", firstNegative);
 ```
 
+```
+In this example, the findFirstNegative function takes an array of numbers as input. It iterates through the 
+array using a for...of loop. If it encounters a negative number, it immediately exits the loop and the 
+function, returning that negative number. If no negative number is found, it returns null. The code then calls 
+the function with an array of numbers and prints the first negative number (if found) or 
+null to the console.
+```
+
+
 **Output:** 
 
 ```jsx
 First negative number: -3
 ```
+<br/>
 
 # Time to Challenge Yourself!
 
 <aside>
-💡 You can **TEST** and **RUN** the following challenges by yourself here →
-
+💡You can **TEST** and **RUN** the following challenges by yourself here →
 </aside>
 
 [RunJS | JavaScript Playground | Run JavaScript and TypeScript Code Online](https://runjs.co/)
@@ -341,14 +404,15 @@ The Number is: 5
 ```
 
 <aside>
-💡 Hint: You can combine String and numbers by using " **+** " operators in javascript.
+💡 Hint: You can combine String and numbers by using " **+** " operators in JavaScript.
 
 </aside>
+<br/>
 
 > **Challenge 2: Counting Even Numbers**
 > 
 
-> Write a program that counts and prints the number of even numbers between 1 and 15.
+ Write a program that counts and prints the number of even numbers between 1 and 15.
 > 
 
 **Expected Output:** 
