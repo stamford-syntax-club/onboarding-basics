@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Functions in Javascript
+# Functions
 
 *Written By: Chinathai Panditya*
 
