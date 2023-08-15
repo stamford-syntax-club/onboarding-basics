@@ -268,10 +268,7 @@ occupation: GOD
 
 # Now Let's Learn How to Control loop flows
 
-<aside>
 💡 Loop control statements in JavaScript are used to alter the flow of execution within loops. They allow you to control how and when the loop iterations occur. There are three main loop control statements: **`break`**, **`continue`**, and **`return`**.
-
-</aside>
 
 ### **BREAK**
 
@@ -382,10 +379,7 @@ First negative number: -3
 
 # Time to Challenge Yourself!
 
-<aside>
-💡You can **TEST** and **RUN** the following challenges by yourself here →
-</aside>
-
+💡You can **TEST** and **RUN** the following challenges by yourself here →  
 [RunJS | JavaScript Playground | Run JavaScript and TypeScript Code Online](https://runjs.co/)
 
 > **Challenge 1: Print out String + numbers**
@@ -403,11 +397,7 @@ The Number is: 4
 The Number is: 5
 ```
 
-<aside>
-💡 Hint: You can combine String and numbers by using " **+** " operators in JavaScript.
-
-</aside>
-<br/>
+💡 Hint: You can combine String and numbers by using the `+` operator in JavaScript.  
 
 > **Challenge 2: Counting Even Numbers**
 > 
@@ -427,7 +417,4 @@ The Number is: 5
 14
 ```
 
-<aside>
-💡 **Hint:** You can use the modulo operator `**%**` to check if a number is even. An even number divided by 2 will have no remainder. Use a loop to iterate through numbers from 1 to 15 and prints out all even numbers.
-
-</aside>
+💡 **Hint:** You can use the modulo operator `%` to check if a number is even. An even number divided by 2 will have no remainder. Use a loop to iterate through numbers from 1 to 15 and prints out all even numbers.
