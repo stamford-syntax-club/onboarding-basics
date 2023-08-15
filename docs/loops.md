@@ -1,7 +1,11 @@
+---
+title: Loops
+sidebar_position: 5
+---
+
 # Loops In JavaScript
 
-Created by: Nay Htet Kyaw
-Tags: Guides, Loops, Tutorial
+Written By: Nay Htet Kyaw
 
 # Loops In JavaScript
 
@@ -13,17 +17,12 @@ Tags: Guides, Loops, Tutorial
 - for …of loop
 - for …in the loop
 
-<aside>
-💡 You can **TEST** and **RUN** the following examples by yourself here →
-
-</aside>
-
-[RunJS | JavaScript Playground | Run JavaScript and TypeScript Code Online](https://runjs.co/)
+💡 You can **TEST** and **RUN** the following examples by yourself [here](https://runjs.co/)
 
 ## For Loop
 
-The **‘for’** loop is used when you know the exact number of 
-time to loop or iteration you want to perform. It consists of three parts: **`initialization`**, **`condition`**, and **`iteration`**. This **‘for loop’** repeatedly executes your specified code block as long as the condition remains true.
+The **'for'** loop is used when you know the exact number of 
+time to loop or iteration you want to perform. It consists of three parts: **`initialization`**, **`condition`**, and **`iteration`**. This **'for loop'** repeatedly executes your specified code block as long as the condition remains true.
 
 ### **SYNTAX**
 
@@ -78,15 +77,8 @@ while (i < 5) {
 }
 ```
 
-<aside>
-💡 **” i “ is a variable that assumes or points to the values of the elements inside the loop.**
-
-</aside>
-
-<aside>
-💡 In JavaScript, you can combine **“String”** and **Numbers** by using the **“ + “** sign.
-
-</aside>
+💡 `i` is a variable that assumes or points to the values of the elements inside the loop.  
+💡 In JavaScript, you can combine **"String"** and **Numbers** by using the **" + "** sign.
 
 ### **Output:**
 
@@ -98,7 +90,7 @@ while (i < 5) {
 4: Hello World
 ```
 
-## **‘Do-while’ loop**
+## **'Do-while' loop**
 
 The **`do-while`** loop is similar to the **`while`** loop, but the code block is executed at least once before checking the condition. It continues executing as long as the condition remains true.
 
@@ -139,9 +131,9 @@ This is :4
 
 <!-- ![Untitled](Loops%20In%20JavaScript%20bbbe4c67e9194a449e8c4149e26b5994/Untitled.png) -->
 
-## **‘For…of’ Loop**
+## **'For…of' Loop**
 
-Introduced in ES6, the **`for...of`** loop simplifies iterating (looping) over elements of iterable objects, such as arrays and strings. It provides direct access to the values of the iterable.
+Introduced in the ES6 version of JavaScript, the **`for...of`** loop simplifies iterating (looping) over elements of iterable objects, such as arrays and strings. It provides direct access to the values of the iterable.
 
 ### SYNTAX
 
@@ -195,7 +187,7 @@ l
 o
 ```
 
-## ‘For…in’ Loop
+## 'For…in' Loop
 
 The `for...in` loop is a basic control statement that allows to loop through the properties of an object. The statements of code found within the loop body will be executed once for each property of the object.
 
@@ -234,7 +226,7 @@ age: 20
 occupation: GOD
 ```
 
-# Now Let’s Learn How to Control loop flows
+# Now Let's Learn How to Control loop flows
 
 <aside>
 💡 Loop control statements in JavaScript are used to alter the flow of execution within loops. They allow you to control how and when the loop iterations occur. There are three main loop control statements: **`break`**, **`continue`**, and **`return`**.
@@ -245,7 +237,7 @@ occupation: GOD
 
 The **`break`** statement is used to immediately exit the loop, regardless of whether the loop condition or iteration is still valid. It's often used when a certain condition is met, and you want to stop the loop's execution.
 
-**Example with ‘for loop’:** 
+**Example with 'for loop':** 
 
 ```jsx
 
@@ -272,7 +264,7 @@ for (let i = 0; i < 10; i++) {
 
 The `continue` statement lets you skip the current loop iteration and move on to the next one. It's handy when you need to skip specific iterations based on a condition while keeping the loop running.
 
-**Example with ‘While loop’:** 
+**Example with 'While loop':** 
 
 ```jsx
 //initializing varialbe i
@@ -336,7 +328,7 @@ First negative number: -3
 > **Challenge 1: Print out String + numbers**
 > 
 
-Write a program using any loop types and print “The number is: ” + Number 1 to 5.
+Write a program using any loop types and print "The number is: " + Number 1 to 5.
 
 **Expected Output:** 
 
@@ -349,7 +341,7 @@ The Number is: 5
 ```
 
 <aside>
-💡 Hint: You can combine String and numbers by using “ **+** “ operators in javascript.
+💡 Hint: You can combine String and numbers by using " **+** " operators in javascript.
 
 </aside>
 
