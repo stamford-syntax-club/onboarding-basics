@@ -26,7 +26,7 @@ let car1 = "Saab";
 let car2 = "Volvo";
 let car3 = "BMW";
 
-render(car1)
+render(`${car1}, ${car2}, ${car3}`);
   ```
 
 However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
@@ -40,7 +40,7 @@ Here's an example of how to create an array:
 ```javascript live noInline
 let cars = ["Saab", "Volvo", "BMW"];
 
-render(cars)
+render(`${cars}`);
 ```
 
 ### 2. Accessing array elements
@@ -54,7 +54,7 @@ In this example we create an array and assign car the value 0 from the cars arra
 const cars = ["Saab", "Volvo", "BMW"];
 let car = cars[0];
 
-render(car)
+render(`${car}`);
 ```
 
 ### 3. Adding an element to an array
@@ -68,7 +68,7 @@ const cars = ["Saab", "Volvo", "BMW"];
 
 cars.push("Audi");
 
-render(cars)
+render(`${cars}`);
 ```
 
 The unshift() method adds an element at the beginning of the array. For example:
@@ -78,7 +78,7 @@ const cars = ["Saab", "Volvo", "BMW"];
 
 cars.unshift("Audi");
 
-render(cars)
+render(`${cars}`);
 ```
 
 ### 4. Removing an element from an array
@@ -91,7 +91,7 @@ The pop() removes the last item in a list, for example:
 const cars = ["Saab", "Volvo", "BMW"];
 cars.pop();
 
-render(cars)
+render(`${cars}`);
 ```
 
 While the shift() removes the first item in a list, for example:
@@ -100,7 +100,7 @@ While the shift() removes the first item in a list, for example:
 const cars = ["Saab", "Volvo", "BMW"];
 cars.shift();
 
-render(cars)
+render(`${cars}`);
 ```
 
 ---
