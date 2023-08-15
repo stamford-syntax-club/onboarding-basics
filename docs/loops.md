@@ -137,7 +137,7 @@ This is :3
 This is :4
 ```
 
-![Untitled](Loops%20In%20JavaScript%20bbbe4c67e9194a449e8c4149e26b5994/Untitled.png)
+<!-- ![Untitled](Loops%20In%20JavaScript%20bbbe4c67e9194a449e8c4149e26b5994/Untitled.png) -->
 
 ## **‘For…of’ Loop**
 
