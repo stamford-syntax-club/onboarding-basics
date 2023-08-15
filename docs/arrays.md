@@ -103,6 +103,33 @@ cars.shift();
 render(`${cars}`);
 ```
 
+### 5. Try it yourself !
+
+Create an array of food and use the things you learned from this document to experiment:
+
+```javascript live noInline
+// Create an array of food
+
+
+// Add an element to the end of the array
+
+
+// Add an element to the beginning of the array
+
+
+// Remove an element from the end of the array
+
+
+// Remove an element from the beginning of the array
+
+
+// Access an element from the array
+
+
+// Render the final array.
+```
+
+
 ---
 
 
