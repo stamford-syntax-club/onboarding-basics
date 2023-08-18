@@ -177,7 +177,7 @@ Further explanations are available in the ***Arrays*** chapter!
 
 ### Objects
 
-Consider a recipe for a sandwich. It has different parts: "ingredients," "steps," and "prep time." In JavaScript, you can create an object to hold all these details in a structured way.
+Consider a recipe for a sandwich. It has different parts: "name", "ingredients", and "steps". In JavaScript, you can create an object to hold all these details in a structured way.
 
 JavaScript objects are written with curly braces `{}`
 
