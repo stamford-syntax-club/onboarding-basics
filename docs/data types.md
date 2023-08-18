@@ -5,7 +5,7 @@ sidebar_position: 2
 
 *Written By: Watsamon Phongwanit*
 
-Code example can be run on: [https://runjs.co/](https://runjs.co/)
+You can run the code examples on: [https://runjs.co/](https://runjs.co/)
 
 JavaScript has two categories of data types:
 
@@ -189,8 +189,7 @@ Example:
 const sandwich = {
 		name: "Ham Cheese Sandwich",
 		ingredients: ["bread", "ham", "cheese"],
-		steps: [......],
-		preptime: ....
+		steps: [......], // Steps to make sandwaich
 }
 ```
 
@@ -260,7 +259,7 @@ Try it yourself?
 
 You can use the JavaScript typeof operator to find the type of a JavaScript variable.
 
-The typeof operator returns the type of a variable or an expression:
+The typeof operator returns a string containing the type of a variable or an expression:
 
 Example:
 
