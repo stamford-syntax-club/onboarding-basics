@@ -38,7 +38,7 @@ let carName1 = "Volvo XC60";
 let carName2 = 'Volvo XC60';
 ```
 
-2 strings can be join together with a plus(`+`) sign
+2 strings can be joined together with a plus(`+`) sign
 
 ```jsx
 let dog_name = "Shiro";
