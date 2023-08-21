@@ -50,7 +50,7 @@ jobs:
 
       - name: create and checkout new branch
         run: |
-          git checkout -b deploy/frontend-${GITHUB_SHA}
+          git checkout -b deploy/onboarding-${GITHUB_SHA}
 
       - name: change image tag
         run: |
@@ -59,4 +59,4 @@ jobs:
           sed -i -E "s/ghcr.io\/stamford-syntax-club\/onboarding-basics.*$/ghcr.io\/stamford-syntax-club\/onboarding-basics:${GITHUB_SHA}/" onboarding/docker-compose.dev.yaml
           git add onboarding/docker-compose.dev.yaml
           git commit -m "🤖 change docker image version to ${GITHUB_SHA}"
-          git push origin deploy/frontend-${GITHUB_SHA}
+          git push origin deploy/onboarding-${GITHUB_SHA}
