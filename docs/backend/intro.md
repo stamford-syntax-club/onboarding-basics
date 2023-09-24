@@ -18,3 +18,13 @@ We separate the source code for frontend and backend apart for the following rea
 1. _Modularity and Scalability:_ Separating frontend and backend allows each part to evolve independently. You can update or scale one without affecting the other. This modularity makes it easier to manage complex systems and adapt to changing requirements.
 2. _Specialization:_ Developers often have different skills and expertise. Frontend developers focus on user interfaces, while backend developers specialize in server-side logic. Separation allows specialists to work on what they do best.
 3. _Security:_ By keeping the backend separate from the frontend, sensitive data and critical server-side logic can be protected more effectively. Access controls and security measures can be concentrated on the backend, reducing the attack surface.
+
+## Topics
+
+To equip you with basics of backend development, we will be covering:
+
+- How to perform CRUD operations in MongoDB
+- What is HTTP?
+- What is REST and RESTful API, and how to create one?
+
+Note that this document only serves as a foundation for developing a backend application - you might be encountering different tools as you start working on the project, but you will do just fine as long as you have the basics ready.
